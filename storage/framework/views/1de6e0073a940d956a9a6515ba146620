@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- head -->
+<head>
+
+<?php echo $__env->make('header', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+</head>
+<!-- end head -->
+
+<body>
+<!-- wrapper -->
+<div id="wrapper">
+<?php echo $__env->yieldContent('content'); ?>
+</div>
+<!-- end wrapper -->
+
+<!-- footer -->
+<?php echo $__env->make('footer', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+<!-- end footer -->
+</body>
+
+</html>
